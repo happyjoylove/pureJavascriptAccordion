@@ -1,0 +1,14 @@
+body { font-size: 80%; font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif; }
+.accordionItem h2 { margin: 0; font-size: 1.1em; padding: 0.4em; color: blue; background-color: #FFF; border: 1px solid #333; background-repeat: no-repeat; background-position: right;}
+.accordionItem h2:hover { cursor: pointer; }
+.TRU .accordionItem.hide h2{ background-image: url(Assets/TRU/tru-closed.jpg);border: 1px solid #333;}
+.BRU .accordionItem.hide h2{ background-image: url(Assets/BRU/bru-closed.jpg);border: 1px solid #333;}
+.TRU .accordionItem h2{ background-image: url(Assets/TRU/tru-opened.jpg);border-bottom: none;}
+.BRU .accordionItem h2{ background-image: url(Assets/BRU/bru-opened.jpg);border-bottom: none;}
+
+.accordionItem div { margin: 0; padding: 1em 0.4em; background-color: #FFF; border: 1px solid #66d; border-top: none; }
+.accordionItem.hide h2 { color: #000; background-color: #FFF; }
+.accordionItem.hide div { display: none; }
+
+.accordionContainer>div{margin: 10px 0;}
+a{cursor: pointer;}
